@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var xewx: UILabel!
     @IBOutlet weak var thing: UILabel!
     @IBOutlet weak var xwdxed: UITableView!
     override func viewDidLoad() {
@@ -22,5 +23,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+
+    
 }
 
